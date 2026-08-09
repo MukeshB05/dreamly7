@@ -3,7 +3,7 @@
     {
       "name": "vidapi",
       "label": "Vidapi",
-      "imdbSupported": false,
+      "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidapi.xyz/embed/movie/{id}",
       "tvPattern": "https://vidapi.xyz/embed/tv/{id}/{season}/{episode}"
@@ -21,8 +21,8 @@
       "label": "Main 2",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://viduki.net/1/movie/{tmdb_id or imdb_id}?color={hex}",
-      "tvPattern": "https://viduki.net/1/tv/{tmdb_id or imdb_id}/{season}/{episode}?color={hex}"
+      "moviePattern": "https://viduki.net/2/movie/{tmdb_id or imdb_id}?color={hex}",
+      "tvPattern": "https://viduki.net/2/tv/{tmdb_id or imdb_id}/{season}/{episode}?color={hex}"
     },
     {
       "name": "vidup",
