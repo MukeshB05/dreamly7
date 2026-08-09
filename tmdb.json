@@ -1,12 +1,12 @@
 {
   "servers": [
     {
-      "name": "vidapi",
-      "label": "Vidapi",
-      "imdbSupported": true,
+      "name": "vidout",
+      "label": "Dreamly Network",
+      "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://vidapi.xyz/embed/movie/{id}",
-      "tvPattern": "https://vidapi.xyz/embed/tv/{id}/{season}/{episode}"
+      "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
+      "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"
     },
     {
       "name": "videasy",
