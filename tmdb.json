@@ -5,8 +5,8 @@
       "label": "Dreamly Network",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
-      "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"
+      "moviePattern": "https://videoply.pages.dev/index3/movie/{tmdbId}",
+      "tvPattern": "https://videoply.pages.dev/index3/tv/{tmdbId}/S{season}/E{episode}"
     },
     {
       "name": "videasy",
