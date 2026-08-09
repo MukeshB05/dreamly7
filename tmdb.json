@@ -1,6 +1,14 @@
 {
   "servers": [
     {
+      "name": "vidapi",
+      "label": "Vidapi",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://vidapi.xyz/embed/movie/{id}",
+      "tvPattern": "https://vidapi.xyz/embed/tv/{id}/{season}/{episode}"
+    },
+    {
       "name": "videasy",
       "label": "Main 1",
       "imdbSupported": false,
