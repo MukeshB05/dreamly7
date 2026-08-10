@@ -17,8 +17,8 @@ export function Footer() {
                   <Image
                     src="/logo.png"
                     alt={site_name}
-                    width={36}
-                    height={36}
+                    width={76}
+                    height={76}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -34,8 +34,8 @@ export function Footer() {
             {/* Right - Credits and Links */}
             <div className="flex flex-col items-center md:items-end gap-3">
               <div className="flex items-center gap-1 text-sm text-white/50">
-                <span>Made with</span>
-                <span className="text-red-500">❤️</span>
+                <span>Create</span>
+                <span className="text-red-500">📝</span>
                 <span>by</span>
                 <span className="text-white font-medium">Mukesh</span>
               </div>
