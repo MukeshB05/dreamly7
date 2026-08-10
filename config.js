@@ -1,1 +1,1 @@
-export const site_name = 'dreamly7'
+export const site_name = 'Dreamly7'
