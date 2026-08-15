@@ -9,8 +9,16 @@
       "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"
     },
     {
-      "name": "videasy",
+      "name": "vidrock",
       "label": "Main 1",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://vidrock.ru/movie/{tmdb_id}",
+      "tvPattern": "https://vidrock.ru/tv/{tmdb_id}/{season_number}/{episode_number}"
+    },
+    {
+      "name": "videasy",
+      "label": "Main 2",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://player.videasy.to/movie/{tmdbId}",
@@ -18,7 +26,7 @@
     },
     {
       "name": "viduki",
-      "label": "Main 2",
+      "label": "Main 3",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://viduki.net/2/movie/{tmdb_id or imdb_id}?color={hex}",
@@ -26,7 +34,7 @@
     },
     {
       "name": "vidup",
-      "label": "Main 3",
+      "label": "Main 4",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidup.to/movie/{tmdbId}?autoPlay=true&title=true&poster=true&theme=FF0000",
@@ -34,7 +42,7 @@
     },
     {
       "name": "vidlink",
-      "label": "Main 4",
+      "label": "Main 5",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://vidlink.pro/movie/{tmdbId}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=default&title=true&poster=true&autoplay=true",
@@ -42,7 +50,7 @@
     },
     {
       "name": "vidfast",
-      "label": "Main 5",
+      "label": "Main 6",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidfast.pro/movie/{tmdbId}?autoPlay=true",
@@ -50,7 +58,7 @@
     },
     {
       "name": "111movies",
-      "label": "Main 6",
+      "label": "Main 7",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://111movies.net/movie/{tmdbId}",
@@ -58,7 +66,7 @@
     },
     {
       "name": "vidcore",
-      "label": "Main 7",
+      "label": "Main 8",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidcore.net/movie/{tmdbId}?autoPlay=true&theme={hex}",
@@ -66,11 +74,19 @@
     },
     {
       "name": "vidnest",
-      "label": "Main 8",
+      "label": "Main 9",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://vidnest.fun/movie/{tmdbId}",
       "tvPattern": "https://vidnest.fun/tv/{tmdbId}/{season}/{episode}"
+    },
+    {
+      "name": "videasy",
+      "label": "Main 10",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://player.videasy.to/movie/{tmdbId}",
+      "tvPattern": "https://player.videasy.to/tv/{tmdbId}/{season}/{episode}?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true"
     },
     {
       "name": "vidsrc_wtf_2",
