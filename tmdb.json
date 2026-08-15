@@ -89,6 +89,14 @@
       "tvPattern": "https://player.videasy.to/tv/{tmdbId}/{season}/{episode}?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true"
     },
     {
+      "name": "videasy",
+      "label": "Main 11",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://pvrplay.online/watch/movie/${id}?autoplay=true",
+      "tvPattern": "https://pvrplay.online/watch/tv/${id}/${s}/${e}?autoplay=true"
+    },
+    {
       "name": "vidsrc_wtf_2",
       "label": "MULTI LANGUAGE",
       "imdbSupported": true,
