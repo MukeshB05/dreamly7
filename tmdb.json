@@ -97,6 +97,14 @@
       "tvPattern": "https://pvrplay.online/watch/tv/${id}/${s}/${e}?autoplay=true"
     },
     {
+      "name": "cinemaos",
+      "label": "Main 12",
+      "imdbSupported": true,
+      "tmdbSupported": true,
+      "moviePattern": "https://cinemaos.tech/movie/watch/${id}?autoplay=true&server=Titan",
+      "tvPattern": "https://cinemaos.tech/tv/watch/${id}?season=${s}&episode=${e}?autoplay=true&embed=true"
+    },
+    {
       "name": "vidsrc_wtf_2",
       "label": "MULTI LANGUAGE",
       "imdbSupported": true,
