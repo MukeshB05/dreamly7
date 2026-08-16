@@ -29,8 +29,8 @@
       "label": "Main 3",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://viduki.net/2/movie/{id}",
-      "tvPattern": "https://viduki.net/2/tv/{id}/{season}/{episode}"
+      "moviePattern": "https://viduki.net/2/movie/{tmdbId}",
+      "tvPattern": "https://viduki.net/2/tv/{tmdbId}/{season}/{episode}"
     },
     {
       "name": "vidup",
