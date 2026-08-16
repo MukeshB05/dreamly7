@@ -258,7 +258,7 @@ export const TV_NETWORKS = [
   { id: 359, name: 'Cinemax', logo: '/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png', preserveColor: true },
   { id: 3919, name: 'Hotstar', logo: '/eBa3TplonEHlR6S2wjJ616KnwIh.png', preserveColor: true },
   { id: 8303, name: 'MUBI', logo: '/ltHubSF7YTefDDE62BNlxROYnxc.png', preserveColor: true },
-  { id: 5187, name: 'Tubi', logo: '/8OAFRLPQ4w888UDkDtnXpdnRfEQ.png', preserveColor: true },
+  { id: 73, name: 'Tubi', logo: '/8OAFRLPQ4w888UDkDtnXpdnRfEQ.png', preserveColor: true },
   { id: 3245, name: 'Pluto TV', logo: '/6xI75dFULiEks0Dqm3Uag7CiC29.png', preserveColor: true },
   { id: 2869, name: 'Viaplay', logo: '/zs2yhnfMzRLoRtZgGRf41mqrLL0.png', preserveColor: true },
   { id: 3353, name: 'Peacock', logo: '/gIAcGTjKKr0KOHL5s4O36roJ8p7.png', preserveColor: false },
