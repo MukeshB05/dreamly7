@@ -230,6 +230,8 @@ export const MOVIE_STUDIOS = [
   { id: 5, name: 'Columbia Pictures', logo: '/71BqEFAF4V3qjjMPCpLuyJFB9A.png', preserveColor: false },
   { id: 12, name: 'New Line Cinema', logo: '/iaYpEp3LQmb8AfAtmTvpqd4149c.png', preserveColor: false },
   { id: 9993, name: 'DC Studios', logo: '/2Tc1P3Ac8M479naPp1kYT3izLS5.png', preserveColor: false },
+  { id: 41077, name: 'A24', logo: '/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png', preserveColor: false },
+  { id: 127928, name: '20th Century', logo: '/h0rjX5vjW5r8yEnUBStFarjcLT4.png', preserveColor: false },
   { id: 923, name: 'Legendary Pictures', logo: '/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png', preserveColor: false },
   { id: 923, name: 'Lucasfilm', logo: '/o86DbpburjxrqAzEDhXZcyE8pDb.png', preserveColor: false },
 ];
