@@ -93,7 +93,7 @@
       "label": "Main 11",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://pvrplay.online/watch/movie/{tmdbId}",
+      "moviePattern": "https://pvrplay.online/watch/movie/{Id}",
       "tvPattern": "https://pvrplay.online/watch/tv/${id}/${s}/${e}?autoplay=true"
     },
     {
