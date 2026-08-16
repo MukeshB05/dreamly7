@@ -250,6 +250,10 @@ export const TV_NETWORKS = [
   { id: 1, name: 'Fuji TV', logo: '/yS5UJjsSdZXML0YikWTYYHLPKhQ.png', preserveColor: false },
   { id: 174, name: 'AMC', logo: '/pmvRmATOCaDykE6JrVoeYxlFHw3.png', preserveColor: false },
   { id: 318, name: 'Starz', logo: '/8GJjw3HHsAJYwIWKIPBPfqMxlEa.png', preserveColor: false },
-  { id: 4353, name: 'Discovery+', logo: '/1D1bS3Dyw4ScYnFWTlBOvJXC3nb.png', preserveColor: true },
+  { id: 4353, name: 'Discovery+', logo: '/1D1bS3Dyw4ScYnFWTlBOvJXC3nb.png', preserveColor: true }, 
+  { id: 56, name: 'Cartoon Network', logo: '/c5OC6oVCg6QP4eqzW6XIq17CQjI.png', preserveColor: true },
+  { id: 80, name: 'Adult Swim', logo: '/9AKyspxVzywuaMuZ1Bvilu8sXly.png', preserveColor: true },
+  { id: 3353, name: 'Peacock', logo: '/gIAcGTjKKr0KOHL5s4O36roJ8p7.png', preserveColor: true },
+  { id: 13, name: 'Nick', logo: '/ikZXxg6GnwpzqiZbRPhJGaZapqB.png', preserveColor: true },
   { id: 453, name: 'Hbo Max', logo: '/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png', preserveColor: true },
 ];
