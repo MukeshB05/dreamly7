@@ -11,10 +11,10 @@
     {
       "name": "vidrock",
       "label": "Main 1",
-      "imdbSupported": false,
+      "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://vidrock.ru/movie/{tmdb_id}",
-      "tvPattern": "https://vidrock.ru/tv/{tmdb_id}/{season_number}/{episode_number}"
+      "moviePattern": "https://vidrock.net/movie/{tmdb_id}",
+      "tvPattern": "https://vidrock.net/tv/{tmdb_id}/{season_number}/{episode_number}"
     },
     {
       "name": "videasy",
