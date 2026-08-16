@@ -250,5 +250,6 @@ export const TV_NETWORKS = [
   { id: 1, name: 'Fuji TV', logo: '/yS5UJjsSdZXML0YikWTYYHLPKhQ.png', preserveColor: true },
   { id: 174, name: 'AMC', logo: '/pmvRmATOCaDykE6JrVoeYxlFHw3.png', preserveColor: true },
   { id: 318, name: 'Starz', logo: '/8GJjw3HHsAJYwIWKIPBPfqMxlEa.png', preserveColor: false },
+  { id: 4353, name: 'Discovery+', logo: '/1D1bS3Dyw4ScYnFWTlBOvJXC3nb.png', preserveColor: false },
   { id: 453, name: 'Hbo Max', logo: '/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png', preserveColor: false },
 ];
