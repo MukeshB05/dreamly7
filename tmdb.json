@@ -93,16 +93,16 @@
       "label": "Main 11",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://pvrplay.online/watch/movie/{Id}",
-      "tvPattern": "https://pvrplay.online/watch/tv/{id}/{s}/{e}?autoplay=true"
+      "moviePattern": "https://pvrplay.online/watch/movie/{tmdbId}",
+      "tvPattern": "https://pvrplay.online/watch/tv/{tmdbId}/{s}/{e}?autoplay=true"
     },
     {
       "name": "cinemaos",
       "label": "Main 12",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://cinemaos.tech/movie/watch/{id}?autoplay=true",
-      "tvPattern": "https://cinemaos.tech/tv/watch/${id}?season=${s}&episode=${e}?autoplay=true&embed=true"
+      "moviePattern": "https://cinemaos.tech/movie/watch/{tmdbId}?autoplay=true",
+      "tvPattern": "https://cinemaos.tech/tv/watch/{tmdbId}?season=${s}&episode=${e}?autoplay=true&embed=true"
     },
     {
       "name": "vidsrc_wtf_2",
