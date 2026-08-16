@@ -13,7 +13,7 @@
       "label": "Main 1",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://vidrock.net/movie/{tmdb_id}",
+      "moviePattern": "https://vidrock.net/movie/{tmdbId}",
       "tvPattern": "https://vidrock.net/tv/{tmdb_id}/{season_number}/{episode_number}"
     },
     {
