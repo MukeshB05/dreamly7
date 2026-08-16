@@ -256,6 +256,8 @@ export const TV_NETWORKS = [
   { id: 56, name: 'Cartoon Network', logo: '/c5OC6oVCg6QP4eqzW6XIq17CQjI.png', preserveColor: false },
   { id: 80, name: 'Adult Swim', logo: '/9AKyspxVzywuaMuZ1Bvilu8sXly.png', preserveColor: false },
   { id: 359, name: 'Cinemax', logo: '/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png', preserveColor: true },
+  { id: 3919, name: 'Hotstar', logo: '/eBa3TplonEHlR6S2wjJ616KnwIh.png', preserveColor: true },
+  { id: 359, name: 'Cinemax', logo: '/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png', preserveColor: true },
   { id: 3353, name: 'Peacock', logo: '/gIAcGTjKKr0KOHL5s4O36roJ8p7.png', preserveColor: false },
   { id: 13, name: 'Nick', logo: '/ikZXxg6GnwpzqiZbRPhJGaZapqB.png', preserveColor: true },
   { id: 453, name: 'Hbo Max', logo: '/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png', preserveColor: true },
