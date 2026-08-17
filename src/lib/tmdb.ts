@@ -217,6 +217,7 @@ export interface PersonDetails {
 
 export const MOVIE_STUDIOS = [
   { id: 420, name: 'Marvel Studios', logo: '/hUzeosd33nzE5MCNsZxCGEKTXaQ.png', preserveColor: true },
+  { id: 16401, name: 'Aashirvad Cinemas', logo: '/khS7G0KzBoCYcLs4xuNjpuZjntR.png', preserveColor: true },
   { id: 174, name: 'Warner Bros.', logo: '/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png', preserveColor: true },
   { id: 33, name: 'Universal Pictures', logo: '/8lvHyhjr8oUKOOy2dKXoALWKdp0.png', preserveColor: false },
   { id: 2, name: 'Walt Disney Pictures', logo: '/wdrCwmRnLFJhEoH8GSfymY85KHT.png', preserveColor: false },
