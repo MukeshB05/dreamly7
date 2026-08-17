@@ -14,7 +14,7 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidrock.net/embed/movie/{tmdbId}",
-      "tvPattern": "https://vidrock.net/tv/{tmdb_Id}/S{season}/E{episode}"
+      "tvPattern": "https://vidrock.net/embed/tv/{tmdbId}/S{season}/E{episode}"
     },
     {
       "name": "videasy",
