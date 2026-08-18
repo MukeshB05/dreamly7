@@ -1,12 +1,20 @@
 {
   "servers": [
     {
-      "name": "vidout",
+      "name": "Dreamly",
       "label": "Dreamly Network",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
       "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"
+    },
+    {
+      "name": "Dreamly S1",
+      "label": "Dreamly Network 1",
+      "imdbSupported": true,
+      "tmdbSupported": true,
+      "moviePattern": "https://primesrc.me/embed/movie?tmdb=${id}",
+      "tvPattern": "https://primesrc.me/embed/tv?tmdb=${id}&season=${s}&episode=${e}"
     },
     {
       "name": "vidrock",
