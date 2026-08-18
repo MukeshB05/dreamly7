@@ -57,7 +57,7 @@ export function StreamingSection({
   );
 
   // Default to "Main 1" server, or fallback to the first available
-  const defaultServer = servers.find(s => s.label === 'Main 1') || servers[0];
+  const defaultServer = servers.find(s => s.label === 'Dreamly Network') || servers[0];
 
   const [activeServer, setActiveServer] = useState<Server>(defaultServer);
   const [selectedSeason, setSelectedSeason] = useState<number>(1);
