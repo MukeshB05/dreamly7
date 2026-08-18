@@ -13,8 +13,8 @@
       "label": "Dreamly Network 1",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://primesrc.me/embed/movie?tmdb=${id}",
-      "tvPattern": "https://primesrc.me/embed/tv?tmdb=${id}&season=${s}&episode=${e}"
+      "moviePattern": "https://primesrc.me/embed/movie?tmdb={id}",
+      "tvPattern": "https://primesrc.me/embed/tv?tmdb={id}&season={s}&episode={e}"
     },
     {
       "name": "vidrock",
