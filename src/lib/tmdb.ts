@@ -240,6 +240,8 @@ export const MOVIE_STUDIOS = [
 export const TV_NETWORKS = [
   { id: 213, name: 'Netflix', logo: '/wwemzKWzjKYJFfCeiB57q3r4Bcm.png', preserveColor: true },
   { id: 2739, name: 'Disney+', logo: '/gJ8VX6JSu3ciXHuC2dDGAo2lvwM.png', preserveColor: false },
+  { id: 2902, name: 'Ullu', logo: '/v5YSGiZxWsQTRQaijkEcUSSBFeQ.png', preserveColor: false },
+  { id: 2112, name: 'ALTBalaji', logo: '/zZ8gquIrrBvDGyMMcsSgArRuzyh.png', preserveColor: false }, 
   { id: 49, name: 'HBO', logo: '/tuomPhY2UtuPTqqFnKMVHvSb724.png', preserveColor: false },
   { id: 1024, name: 'Amazon', logo: '/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png', preserveColor: true },
   { id: 2552, name: 'Apple TV+', logo: '/4KAy34EHvRM25Ih8wb82AuGU7zJ.png', preserveColor: false },
