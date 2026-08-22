@@ -241,6 +241,7 @@ export const TV_NETWORKS = [
   { id: 213, name: 'Netflix', logo: '/wwemzKWzjKYJFfCeiB57q3r4Bcm.png', preserveColor: true },
   { id: 2739, name: 'Disney+', logo: '/gJ8VX6JSu3ciXHuC2dDGAo2lvwM.png', preserveColor: false },
   { id: 8036, name: 'JioHotstar', logo: '/tBOkiKKBZhiqP8vchvwfpbfNztx.png', preserveColor: true },
+  { id: 2590, name: 'ZEE5', logo: '/q6meEcCbZXTb1cDbJ7bl1ITorAa.png', preserveColor: true },
   { id: 2902, name: 'Ullu', logo: '/v5YSGiZxWsQTRQaijkEcUSSBFeQ.png', preserveColor: true },
   { id: 2112, name: 'ALTBalaji', logo: '/zZ8gquIrrBvDGyMMcsSgArRuzyh.png', preserveColor: true }, 
   { id: 49, name: 'HBO', logo: '/tuomPhY2UtuPTqqFnKMVHvSb724.png', preserveColor: false },
