@@ -283,6 +283,7 @@ export const TV_NETWORKS = [
   { id: 3186, name: 'Hulu', logo: '/pqUTCleNUiTLAVlelGxUgWn1ELh.png', preserveColor: true },
   { id: 4, name: 'BBC One', logo: '/mVn7xESaTNmjBUyUtGNvDQd3CT1.png', preserveColor: false },
   { id: 1, name: 'Fuji TV', logo: '/yS5UJjsSdZXML0YikWTYYHLPKhQ.png', preserveColor: false },
+  { id: 7355, name: 'Atrangii', logo: '/qi6eRXHYSozqypShWsYpyWCWRJT.png', preserveColor: true },
   { id: 174, name: 'AMC', logo: '/pmvRmATOCaDykE6JrVoeYxlFHw3.png', preserveColor: false },
   { id: 318, name: 'Starz', logo: '/8GJjw3HHsAJYwIWKIPBPfqMxlEa.png', preserveColor: false },
   { id: 4353, name: 'Discovery+', logo: '/1D1bS3Dyw4ScYnFWTlBOvJXC3nb.png', preserveColor: true }, 
