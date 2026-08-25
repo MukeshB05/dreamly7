@@ -217,12 +217,12 @@ export interface PersonDetails {
 
 export const MOVIE_STUDIOS = [
   { id: 420, name: 'Marvel Studios', logo: '/hUzeosd33nzE5MCNsZxCGEKTXaQ.png', preserveColor: true },
-  { id: 111627, name: 'Hombale Films', logo: '/ldpgYauK9FMNsbOSSxSSl63o3mb.png', preserveColor: true },
+  { id: 111627, name: 'Hombale Films', logo: '/ldpgYauK9FMNsbOSSxSSl63o3mb.png', preserveColor: false },
   { id: 223950, name: 'Showing Business', logo: '/ia92caRtruvUUjeQ5YOICrFzr2H.png', preserveColor: true },
   { id: 18048, name: 'Vishal Film Factory', logo: '/6B6tnLTILVTWZcpc9LjsW3W5POg.png', preserveColor: true },
   { id: 111629, name: 'Prithviraj Productions', logo: '/4rWMHwpIpGMMm5p5q4GFVj3U8DV.png', preserveColor: true },
   { id: 44839, name: 'Friday Film House', logo: '/qGFnWZj0TaZIfp22JzWHHCrlXW0.png', preserveColor: true },
-  { id: 104937, name: 'Vels Film International', logo: '/2Uu3slWWG2T42xglgh6xIo3jvmt.png', preserveColor: true },
+  { id: 104937, name: 'Vels Film International', logo: '/2Uu3slWWG2T42xglgh6xIo3jvmt.png', preserveColor: false },
   { id: 7135, name: 'Sun Pictures', logo: '/8KsxNPnM0y9Dk3fOcHqKUDw2XUs.png', preserveColor: true },
   { id: 55821, name: '2D Entertainment', logo: '/3H2tgEpC3pRMMoyKEr6YHENgI8E.png', preserveColor: true },
   { id: 35124, name: 'Lyca Productions', logo: '/clz3r0SYNudiGRB10yjvU9ZSgP8.png', preserveColor: true },
