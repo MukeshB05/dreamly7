@@ -217,6 +217,12 @@ export interface PersonDetails {
 
 export const MOVIE_STUDIOS = [
   { id: 420, name: 'Marvel Studios', logo: '/hUzeosd33nzE5MCNsZxCGEKTXaQ.png', preserveColor: true },
+  { id: 111627, name: 'Hombale Films', logo: '/ldpgYauK9FMNsbOSSxSSl63o3mb.png', preserveColor: true },
+  { id: 223950, name: 'Showing Business', logo: '/ia92caRtruvUUjeQ5YOICrFzr2H.png', preserveColor: true },
+  { id: 18048, name: 'Vishal Film Factory', logo: '/6B6tnLTILVTWZcpc9LjsW3W5POg.png', preserveColor: true },
+  { id: 111629, name: 'Prithviraj Productions', logo: '/4rWMHwpIpGMMm5p5q4GFVj3U8DV.png', preserveColor: true },
+  { id: 44839, name: 'Friday Film House', logo: '/qGFnWZj0TaZIfp22JzWHHCrlXW0.png', preserveColor: true },
+  { id: 104937, name: 'Vels Film International', logo: '/2Uu3slWWG2T42xglgh6xIo3jvmt.png', preserveColor: true },
   { id: 7135, name: 'Sun Pictures', logo: '/8KsxNPnM0y9Dk3fOcHqKUDw2XUs.png', preserveColor: true },
   { id: 55821, name: '2D Entertainment', logo: '/3H2tgEpC3pRMMoyKEr6YHENgI8E.png', preserveColor: true },
   { id: 35124, name: 'Lyca Productions', logo: '/clz3r0SYNudiGRB10yjvU9ZSgP8.png', preserveColor: true },
@@ -235,7 +241,7 @@ export const MOVIE_STUDIOS = [
   { id: 106780, name: 'Sivakarthikeyan Productions', logo: '/sX9xyT6EqAmRedxXFRuv6INuDmm.png', preserveColor: true },
   { id: 174, name: 'Warner Bros', logo: '/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png', preserveColor: true },
   { id: 33, name: 'Universal Pictures', logo: '/8lvHyhjr8oUKOOy2dKXoALWKdp0.png', preserveColor: false },
-  { id: 11864, name: 'Magic Frames', logo: '/ijEKkNlryVxGWEjVPkCAippmURD.png', preserveColor: true },
+  { id: 11864, name: 'Magic Frames', logo: '/ijEKkNlryVxGWEjVPkCAippmURD.png', preserveColor: false },
   { id: 12630, name: 'Studio Green', logo: '/htjrCpuNUCEvbMw7g9NnQ9pU2mq.png', preserveColor: true },
   { id: 7294, name: 'Reliance Entertainment', logo: '/kK4PRgceWp9KNrycD8xx8seWxYU.png', preserveColor: true },
   { id: 12154, name: 'Fox Star Studios', logo: '/dBjJavlqNxrYlqcbobDYYq9NuOq.png', preserveColor: false },
