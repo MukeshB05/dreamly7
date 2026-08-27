@@ -262,7 +262,7 @@ export const MOVIE_STUDIOS = [
   { id: 41077, name: 'A24', logo: '/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png', preserveColor: false },
   { id: 127928, name: '20th Century', logo: '/h0rjX5vjW5r8yEnUBStFarjcLT4.png', preserveColor: false },
   { id: 923, name: 'Legendary Pictures', logo: '/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png', preserveColor: false },
-  { id: 923, name: 'Lucasfilm', logo: '/o86DbpburjxrqAzEDhXZcyE8pDb.png', preserveColor: false },
+  { id: 1, name: 'Lucasfilm', logo: '/o86DbpburjxrqAzEDhXZcyE8pDb.png', preserveColor: false },
 ];
 
 export const TV_NETWORKS = [
