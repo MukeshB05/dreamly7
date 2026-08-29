@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getMovieDetails, getBackdropUrl, getImageUrl } from '@/lib/tmdb';
+import { getMovieDetails, getWatchProviders, getBackdropUrl, getImageUrl } from '@/lib/tmdb';
 import { formatDate, formatRuntime } from '@/lib/utils';
 import { CastRow, CircularRating, MediaActions, MoreLikeThis, StreamingSection } from '@/components/ui';
 
@@ -33,8 +33,17 @@ export async function generateMetadata({ params }: MoviePageProps): Promise<Meta
 
 export default async function MoviePage({ params }: MoviePageProps) {
   let movie;
+  let watchProviders = null;
+
   try {
-    movie = await getMovieDetails(parseInt(params.id, 10));
+    const movieId = parseInt(params.id, 10);
+    const [movieData, providersData] = await Promise.all([
+      getMovieDetails(movieId),
+      getWatchProviders('movie', movieId).catch(() => null),
+    ]);
+    movie = movieData;
+    const results = providersData?.results || {};
+    watchProviders = results.IN || results.US || Object.values(results)[0] || null;
   } catch {
     notFound();
   }
@@ -189,6 +198,7 @@ export default async function MoviePage({ params }: MoviePageProps) {
                 posterPath={movie.poster_path}
                 backdropPath={movie.backdrop_path}
                 imdbId={movie.imdb_id}
+                watchProviders={watchProviders}
               />
 
               {/* Stats Grid */}
