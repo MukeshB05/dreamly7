@@ -113,6 +113,14 @@
       "tvPattern": "https://cinemaos.tech/tv/watch/{tmdbId}?season=${s}&episode=${e}?autoplay=true&embed=true"
     },
     {
+      "name": "Sky",
+      "label": "Main 13",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdb_id}",
+      "tvPattern": "https://dreamlyfilm.pages.dev/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
+    }
+    {
       "name": "vidsrc_wtf_2",
       "label": "MULTI LANGUAGE",
       "imdbSupported": true,
