@@ -225,16 +225,16 @@
       "tvPattern": "https://www.nontongo.win/embed/tv/{tmdbId}/{season}/{episode}"
     },
     {
-      "name": "test",
-      "label": "test",
+      "name": "vidking",
+      "label": "VIDKING SERVER",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://www.vidking.net/embed/movie/{tmdbId}?autoPlay=true",
       "tvPattern": "https://www.vidking.net/embed/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
     }
     {
-      "name": "vidking",
-      "label": "VIDKING SERVER",
+      "name": "Test",
+      "label": "Test",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdb_id}",
