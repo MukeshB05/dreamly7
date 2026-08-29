@@ -233,12 +233,12 @@
       "tvPattern": "https://www.vidking.net/embed/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
     }
     {
-      "name": "Test",
-      "label": "Test",
+      "name": "Sky",
+      "label": "Sky",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdb_id}",
-      "tvPattern": "https://www.vidking.net/embed/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
+      "tvPattern": "https://dreamlyfilm.pages.dev/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
     }
   ],
   "usageRules": {
