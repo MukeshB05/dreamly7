@@ -17,7 +17,7 @@ export function SplashProvider({ children }: { children: React.ReactNode }) {
     setMounted(true);
 
     try {
-      if (pathname === '/' && !localStorage.getItem('introPlayed')) {
+      if (pathname === '/' && !sessionStorage.getItem('introPlayed')) {
         setShowSplash(true);
       }
     } catch (e) {}
@@ -35,7 +35,7 @@ export function SplashProvider({ children }: { children: React.ReactNode }) {
       setShowSplash(false);
       setIsFading(false);
       try {
-        localStorage.setItem('introPlayed', 'true');
+        sessionStorage.setItem('introPlayed', 'true');
       } catch (e) {}
     }, SPLASH_DURATION);
 
