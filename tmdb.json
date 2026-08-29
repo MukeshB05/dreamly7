@@ -1,132 +1,131 @@
 {
   "servers": [
     {
-      "name": "Dreamly",
-      "label": "Dreamly Network",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
-      "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"
-    },
-    {
-      "name": "PrimeSRC",
-      "label": "PrimeSRC",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://primesrc.me/embed/movie?tmdb={tmdbId}",
-      "tvPattern": "https://primesrc.me/embed/tv?tmdb={tmdbId}&season={season}&episode={episode}"
-    },
-    {
-      "name": "vidrock",
+      "name": "viduki_1",
       "label": "Main 1",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://vidrock.net/embed/movie/{tmdbId}",
-      "tvPattern": "https://vidrock.net/embed/tv/{tmdbId}&season={s}&episode={e}"
+      "moviePattern": "https://www.viduki.net/1/movie/{tmdbId}?color=FF0000",
+      "tvPattern": "https://www.viduki.net/1/tv/{tmdbId}/{season}/{episode}?color=FF0000",
+      "active": true
     },
     {
-      "name": "videasy",
+      "name": "vidy",
       "label": "Main 2",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://player.videasy.to/movie/{tmdbId}",
-      "tvPattern": "https://player.videasy.to/tv/{tmdbId}/{season}/{episode}?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true"
-    },
-    {
-      "name": "viduki",
-      "label": "Main 3",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://viduki.net/2/movie/{tmdbId}",
-      "tvPattern": "https://viduki.net/2/tv/{tmdbId}/{season}/{episode}"
-    },
-    {
-      "name": "vidup",
-      "label": "Main 4",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://vidup.to/movie/{tmdbId}?autoPlay=true&title=true&poster=true&theme=FF0000",
-      "tvPattern": "https://vidup.to/tv/{tmdbId}/{season}/{episode}?autoPlay=true&title=true&poster=true&theme=FF0000&nextButton=false&autoNext=false"
-    },
-    {
-      "name": "vidlink",
-      "label": "Main 5",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://vidlink.pro/movie/{tmdbId}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=default&title=true&poster=true&autoplay=true",
-      "tvPattern": "https://vidlink.pro/tv/{tmdbId}/{season}/{episode}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=default&title=true&poster=true&autoplay=true&nextbutton=false"
+      "moviePattern": "https://vidy.st/movie/{tmdbId}?color=FF0000&overlay=true",
+      "tvPattern": "https://vidy.st/tv/{tmdbId}/{season}/{episode}?color=FF0000&overlay=true",
+      "animePattern": "https://www.vidy.st/anime/{anilistId}/{episode}",
+      "active": true
     },
     {
       "name": "vidfast",
-      "label": "Main 6",
+      "label": "Main 3",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://vidfast.pro/movie/{tmdbId}?autoPlay=true",
-      "tvPattern": "https://vidfast.pro/tv/{tmdbId}/{season}/{episode}?autoPlay=true&nextButton=true&autoNext=true"
+      "moviePattern": "https://vidfast.pro/movie/{tmdbId}?autoPlay=true&title=true&poster=true&theme=FF0000",
+      "tvPattern": "https://vidfast.pro/tv/{tmdbId}/{season}/{episode}?autoPlay=true&title=true&poster=true&theme=FF0000&nextButton=true&autoNext=true",
+      "active": true
     },
     {
-      "name": "111movies",
-      "label": "Main 7",
-      "imdbSupported": true,
-      "tmdbSupported": true,
-      "moviePattern": "https://111movies.net/movie/{tmdbId}",
-      "tvPattern": "https://111movies.net/tv/{tmdbId}/{season}/{episode}"
-    },
-    {
-      "name": "vidcore",
-      "label": "Main 8",
-      "imdbSupported": true,
-      "tmdbSupported": true,
-      "moviePattern": "https://vidcore.net/movie/{tmdbId}?autoPlay=true&theme={hex}",
-      "tvPattern": "https://vidcore.net/tv/{tmdbId}/{season}/{episode}?autoPlay=true&nextButton=true&autoNext=true&theme={hex}"
-    },
-    {
-      "name": "vidnest",
-      "label": "Main 9",
+      "name": "vidlink",
+      "label": "Main 4",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://vidnest.fun/movie/{tmdbId}",
-      "tvPattern": "https://vidnest.fun/tv/{tmdbId}/{season}/{episode}"
+      "moviePattern": "https://vidlink.pro/movie/{tmdbId}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=jw&title=true&poster=true&autoplay=true&nextbutton=false",
+      "tvPattern": "https://vidlink.pro/tv/{tmdbId}/{season}/{episode}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=jw&title=true&poster=true&autoplay=true&nextbutton=false",
+      "active": true
     },
     {
       "name": "videasy",
-      "label": "Main 10",
+      "label": "Main 5",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://player.videasy.to/movie/{tmdbId}",
-      "tvPattern": "https://player.videasy.to/tv/{tmdbId}/{season}/{episode}?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true"
+      "tvPattern": "https://player.videasy.to/tv/{tmdbId}/{season}/{episode}?nextEpisode=true&autoplayNextEpisode=true&episodeSelector=true",
+      "active": true
     },
     {
-      "name": "pvrplay",
-      "label": "Main 11",
-      "imdbSupported": true,
-      "tmdbSupported": true,
-      "moviePattern": "https://pvrplay.online/watch/movie/{tmdbId}",
-      "tvPattern": "https://pvrplay.online/watch/tv/{tmdbId}/{s}/{e}?autoplay=true"
-    },
-    {
-      "name": "cinemaos",
-      "label": "Main 12",
-      "imdbSupported": true,
-      "tmdbSupported": true,
-      "moviePattern": "https://cinemaos.tech/movie/watch/{tmdbId}?autoplay=true",
-      "tvPattern": "https://cinemaos.tech/tv/watch/{tmdbId}?season=${s}&episode=${e}?autoplay=true&embed=true"
-    },
-    {
-      "name": "Sky",
-      "label": "Main 13",
+      "name": "vidzee",
+      "label": "Main 6",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdb_id}",
-      "tvPattern": "https://dreamlyfilm.pages.dev/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
-    }
+      "moviePattern": "https://player.vidzee.wtf/embed/movie/{tmdbId}?color=FF0000",
+      "tvPattern": "https://player.vidzee.wtf/embed/tv/{tmdbId}/{season}/{episode}?color=FF0000",
+      "active": true
+    },
+    {
+      "name": "viduki_2",
+      "label": "Multi-Language",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://www.viduki.net/2/movie/{tmdbId}?color=FF0000",
+      "tvPattern": "https://www.viduki.net/2/tv/{tmdbId}/{season}/{episode}?color=FF0000",
+      "active": true
+    },
+    {
+      "name": "vidsrc_wtf_1",
+      "label": "Main 2",
+      "imdbSupported": true,
+      "tmdbSupported": true,
+      "moviePattern": "https://www.vidsrc.wtf/api/1/movie/?color=FF0000&id={tmdbId}",
+      "tvPattern": "https://www.vidsrc.wtf/api/1/tv/?color=FF0000&id={tmdbId}&s={season}&e={episode}",
+      "active": false
+    },
+    {
+      "name": "vidup",
+      "label": "Main 3",
+      "imdbSupported": true,
+      "tmdbSupported": true,
+      "moviePattern": "https://vidup.to/movie/{tmdbId}?autoPlay=true&title=true&poster=true&theme=FF0000",
+      "tvPattern": "https://vidup.to/tv/{tmdbId}/{season}/{episode}?autoPlay=true&title=true&poster=true&theme=FF0000&nextButton=false&autoNext=false",
+      "active": false
+    },
+    {
+      "name": "vidzee_v2",
+      "label": "Main 7",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://player.vidzee.wtf/v2/embed/movie/{tmdbId}",
+      "tvPattern": "https://player.vidzee.wtf/v2/embed/tv/{tmdbId}/{season}/{episode}",
+      "active": false
+    },
+    {
+      "name": "111movies",
+      "label": "Main 9",
+      "imdbSupported": true,
+      "tmdbSupported": true,
+      "moviePattern": "https://111movies.net/movie/{tmdbId}",
+      "tvPattern": "https://111movies.net/tv/{tmdbId}/{season}/{episode}",
+      "active": false
+    },
+    {
+      "name": "vidcore",
+      "label": "Main 10",
+      "imdbSupported": true,
+      "tmdbSupported": true,
+      "moviePattern": "https://vidcore.net/movie/{tmdbId}?autoPlay=true&theme={hex}",
+      "tvPattern": "https://vidcore.net/tv/{tmdbId}/{season}/{episode}?autoPlay=true&nextButton=true&autoNext=true&theme={hex}",
+      "active": false
+    },
+    {
+      "name": "vidnest",
+      "label": "Main 11",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://vidnest.fun/movie/{tmdbId}",
+      "tvPattern": "https://vidnest.fun/tv/{tmdbId}/{season}/{episode}",
+      "active": false
+    },
     {
       "name": "vidsrc_wtf_2",
       "label": "MULTI LANGUAGE",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://www.vidsrc.wtf/api/2/movie/?color=FF0000&id={tmdbId}",
-      "tvPattern": "https://www.vidsrc.wtf/api/2/tv/?color=FF0000&id={tmdbId}&s={season}&e={episode}"
+      "tvPattern": "https://www.vidsrc.wtf/api/2/tv/?color=FF0000&id={tmdbId}&s={season}&e={episode}",
+      "active": false
     },
     {
       "name": "screenscape",
@@ -134,7 +133,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://flix.screenscape.me/embed?type=movie&lan=eng&tmdb={tmdbId}",
-      "tvPattern": "https://flix.screenscape.me/embed?type=tv&lan=eng&tmdb={tmdbId}&s={season}&e={episode}"
+      "tvPattern": "https://flix.screenscape.me/embed?type=tv&lan=eng&tmdb={tmdbId}&s={season}&e={episode}",
+      "active": false
     },
     {
       "name": "nxsha",
@@ -142,7 +142,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://nxsha.space/embed/movie/{tmdbId}",
-      "tvPattern": "https://nxsha.space/embed/tv/{tmdbId}/{season}/{episode}"
+      "tvPattern": "https://nxsha.space/embed/tv/{tmdbId}/{season}/{episode}",
+      "active": false
     },
     {
       "name": "peachify",
@@ -150,7 +151,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://peachify.top/embed/movie/{tmdbId}?accent={hex}",
-      "tvPattern": "https://peachify.top/embed/tv/{tmdbId}/{season}/{episode}?accent={hex}"
+      "tvPattern": "https://peachify.top/embed/tv/{tmdbId}/{season}/{episode}?accent={hex}",
+      "active": false
     },
     {
       "name": "vidout",
@@ -158,7 +160,8 @@
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://watchout-player.netlify.app/movie/{tmdbId}",
-      "tvPattern": "https://watchout-player.netlify.app/tv/{tmdbId}/S{season}/E{episode}"
+      "tvPattern": "https://watchout-player.netlify.app/tv/{tmdbId}/S{season}/E{episode}",
+      "active": false
     },
     {
       "name": "iqsmartgames",
@@ -166,7 +169,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "tvPattern": "https://streams.iqsmartgames.com/embed/tv/{tmdbId}/{season}/{episode}?key=e11a7debaaa4f5d25b671706ffe4d2acb56efbd4",
-      "moviePattern": "https://streams.iqsmartgames.com/embed/movie/{imdbId}?key=e11a7debaaa4f5d25b671706ffe4d2acb56efbd4"
+      "moviePattern": "https://streams.iqsmartgames.com/embed/movie/{imdbId}?key=e11a7debaaa4f5d25b671706ffe4d2acb56efbd4",
+      "active": false
     },
     {
       "name": "vidstorm",
@@ -174,7 +178,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidstorm.ru/movie/{tmdbId}",
-      "tvPattern": "https://vidstorm.ru/tv/{tmdbId}/{season}/{episode}"
+      "tvPattern": "https://vidstorm.ru/tv/{tmdbId}/{season}/{episode}",
+      "active": false
     },
     {
       "name": "2embed",
@@ -182,7 +187,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://www.2embed.cc/embed/{tmdbId}",
-      "tvPattern": "https://www.2embed.cc/embedtv/{tmdbId}&s={season}&e={episode}"
+      "tvPattern": "https://www.2embed.cc/embedtv/{tmdbId}&s={season}&e={episode}",
+      "active": false
     },
     {
       "name": "vidsrc_wtf_4",
@@ -190,7 +196,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://www.vidsrc.wtf/api/4/movie/?id={tmdbId}",
-      "tvPattern": "https://www.vidsrc.wtf/api/4/tv/?id={tmdbId}&s={season}&e={episode}"
+      "tvPattern": "https://www.vidsrc.wtf/api/4/tv/?id={tmdbId}&s={season}&e={episode}",
+      "active": false
     },
     {
       "name": "vidsrc_wtf_3",
@@ -198,7 +205,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidsrc.wtf/3/movie/{tmdbId}?color={hex}",
-      "tvPattern": "https://vidsrc.wtf/3/tv/{tmdbId}/{season}/{episode}?color={hex}"
+      "tvPattern": "https://vidsrc.wtf/3/tv/{tmdbId}/{season}/{episode}?color={hex}",
+      "active": false
     },
     {
       "name": "primesrc",
@@ -206,7 +214,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://primesrc.me/embed/movie?tmdb={tmdbId}&fallback=true",
-      "tvPattern": "https://primesrc.me/embed/tv?tmdb={tmdbId}&season={season}&episode={episode}&fallback=true"
+      "tvPattern": "https://primesrc.me/embed/tv?tmdb={tmdbId}&season={season}&episode={episode}&fallback=true",
+      "active": false
     },
     {
       "name": "xplay",
@@ -214,7 +223,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://play.xpass.top/e/movie/{tmdbId}",
-      "tvPattern": "https://play.xpass.top/e/tv/{tmdbId}/{season}/{episode}"
+      "tvPattern": "https://play.xpass.top/e/tv/{tmdbId}/{season}/{episode}",
+      "active": false
     },
     {
       "name": "nextgen",
@@ -222,7 +232,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://nextgencloudfabric.com/embed/movie/{tmdbId}",
-      "tvPattern": "https://nextgencloudfabric.com/embed/tv/{tmdbId}/{season}/{episode}"
+      "tvPattern": "https://nextgencloudfabric.com/embed/tv/{tmdbId}/{season}/{episode}",
+      "active": false
     },
     {
       "name": "nontongo",
@@ -230,7 +241,8 @@
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://www.nontongo.win/embed/movie/{tmdbId}",
-      "tvPattern": "https://www.nontongo.win/embed/tv/{tmdbId}/{season}/{episode}"
+      "tvPattern": "https://www.nontongo.win/embed/tv/{tmdbId}/{season}/{episode}",
+      "active": false
     },
     {
       "name": "vidking",
@@ -238,15 +250,8 @@
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://www.vidking.net/embed/movie/{tmdbId}?autoPlay=true",
-      "tvPattern": "https://www.vidking.net/embed/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
-    }
-    {
-      "name": "Sky",
-      "label": "Sky",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdb_id}",
-      "tvPattern": "https://dreamlyfilm.pages.dev/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
+      "tvPattern": "https://www.vidking.net/embed/tv/{tmdbId}/{season}/{episode}?autoPlay=true",
+      "active": false
     }
   ],
   "usageRules": {
