@@ -65,6 +65,15 @@
       "active": true
     },
     {
+      "name": "Test",
+      "label": "D1 Media",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdbId}",
+      "tvPattern": "https://dreamlyfilm.pages.dev/embed/tv/{tmdbId}/{season}/{episode}",
+      "active": true
+    },
+    {
       "name": "vidsrc_wtf_1",
       "label": "Main 2",
       "imdbSupported": true,
