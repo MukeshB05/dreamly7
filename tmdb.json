@@ -240,14 +240,6 @@
       "moviePattern": "https://www.vidking.net/embed/movie/{tmdbId}?autoPlay=true",
       "tvPattern": "https://www.vidking.net/embed/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
     }
-    {
-      "name": "Sky",
-      "label": "Sky",
-      "imdbSupported": false,
-      "tmdbSupported": true,
-      "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdb_id}",
-      "tvPattern": "https://dreamlyfilm.pages.dev/tv/{tmdbId}/{season}/{episode}?autoPlay=true"
-    }
   ],
   "usageRules": {
     "placeholders": {
