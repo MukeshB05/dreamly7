@@ -67,10 +67,10 @@
     {
       "name": "Test",
       "label": "D1 Media",
-      "imdbSupported": false,
+      "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://dreamlyfilm.pages.dev/embed/movie/{tmdbId}",
-      "tvPattern": "https://dreamlyfilm.pages.dev/embed/tv/{tmdbId}/{season}/{episode}",
+      "moviePattern": "https://movieplay1.pages.dev/movie/{tmdbId}",
+      "tvPattern": "https://movieplay1.pages.dev/tv/{tmdbId}/{season}/{episode}",
       "active": true
     },
     {
