@@ -6,6 +6,7 @@ import {
   TMDBResponse,
   SearchResult,
   Genre,
+  WatchProvidersResponse,
 } from '@/types/tmdb';
 
 const API_KEY = '895a21bd83a561eaf341c4eb47d6c972';
@@ -101,6 +102,13 @@ export async function getMovieDetails(id: number): Promise<MovieDetails> {
 
 export async function getTVShowDetails(id: number): Promise<TVShowDetails> {
   return fetchTMDB(`/tv/${id}`, { append_to_response: 'credits,similar,recommendations' });
+}
+
+export async function getWatchProviders(
+  mediaType: 'movie' | 'tv',
+  id: number
+): Promise<WatchProvidersResponse> {
+  return fetchTMDB(`/${mediaType}/${id}/watch/providers`);
 }
 
 export async function searchMulti(
