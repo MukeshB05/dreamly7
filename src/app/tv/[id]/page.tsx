@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getTVShowDetails, getBackdropUrl, getImageUrl } from '@/lib/tmdb';
+import { getTVShowDetails, getWatchProviders, getBackdropUrl, getImageUrl } from '@/lib/tmdb';
 import { formatDate } from '@/lib/utils';
 import { CastRow, CircularRating, MediaActions, MoreLikeThis, StreamingSection } from '@/components/ui';
 
@@ -33,8 +33,17 @@ export async function generateMetadata({ params }: TVShowPageProps): Promise<Met
 
 export default async function TVShowPage({ params }: TVShowPageProps) {
   let show;
+  let watchProviders = null;
+
   try {
-    show = await getTVShowDetails(parseInt(params.id, 10));
+    const tvId = parseInt(params.id, 10);
+    const [showData, providersData] = await Promise.all([
+      getTVShowDetails(tvId),
+      getWatchProviders('tv', tvId).catch(() => null),
+    ]);
+    show = showData;
+    const results = providersData?.results || {};
+    watchProviders = results.IN || results.US || Object.values(results)[0] || null;
   } catch {
     notFound();
   }
@@ -175,6 +184,7 @@ export default async function TVShowPage({ params }: TVShowPageProps) {
                 posterPath={show.poster_path}
                 backdropPath={show.backdrop_path}
                 seasons={show.seasons}
+                watchProviders={watchProviders}
               />
 
               {/* Networks */}
