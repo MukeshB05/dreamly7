@@ -20,3 +20,4 @@ export * from './MediaActions';
 export * from './ContinueWatching';
 export * from './MoreLikeThis';
 export * from './StreamingSection';
+export * from './WatchProvidersSection';
