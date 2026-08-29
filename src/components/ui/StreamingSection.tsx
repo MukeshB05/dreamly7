@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { MediaActions } from './MediaActions';
 import { CircularRating } from './CircularRating';
+import { WatchProvidersSection } from './WatchProvidersSection';
+import { WatchProviderCountry } from '@/types/tmdb';
 import tmdbData from '../../../tmdb.json';
 import { site_name } from '../../../config.js';
 
@@ -14,6 +16,7 @@ interface Server {
   tmdbSupported: boolean;
   moviePattern: string;
   tvPattern: string;
+  active?: boolean;
 }
 
 interface Season {
@@ -34,6 +37,7 @@ interface StreamingSectionProps {
   backdropPath: string | null;
   imdbId?: string | null;
   seasons?: Season[];
+  watchProviders?: WatchProviderCountry | null;
 }
 
 export function StreamingSection({
@@ -47,17 +51,18 @@ export function StreamingSection({
   backdropPath,
   imdbId,
   seasons = [],
+  watchProviders = null,
 }: StreamingSectionProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [autoNext, setAutoNext] = useState(true);
   
-  // Filter servers based on media type support
+  // Filter servers based on active status and media type support
   const servers = (tmdbData.servers as Server[]).filter((server) =>
-    mediaType === 'movie' ? !!server.moviePattern : !!server.tvPattern
+    server.active === true && (mediaType === 'movie' ? !!server.moviePattern : !!server.tvPattern)
   );
 
   // Default to "Main 1" server, or fallback to the first available
-  const defaultServer = servers.find(s => s.label === 'Dreamly Network') || servers[0];
+  const defaultServer = servers.find(s => s.label === 'Main 1') || servers[0];
 
   const [activeServer, setActiveServer] = useState<Server>(defaultServer);
   const [selectedSeason, setSelectedSeason] = useState<number>(1);
@@ -390,6 +395,9 @@ export function StreamingSection({
           </div>
         </div>
       )}
+
+      {/* OTT / Watch Providers */}
+      <WatchProvidersSection providers={watchProviders} />
 
       {/* Overview */}
       <div className="space-y-2 sm:space-y-3">
