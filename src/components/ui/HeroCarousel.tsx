@@ -71,15 +71,7 @@ export function HeroCarousel({ items, autoPlayInterval = 6000 }: HeroCarouselPro
   const mediaType = getMediaType(currentItem);
   const currentLogo = logos[currentItem.id];
 
-  // Build play URL with params
-  const playParams = new URLSearchParams({
-    id: currentItem.id.toString(),
-    type: mediaType,
-    title: title,
-    poster: currentItem.poster_path || '',
-    backdrop: currentItem.backdrop_path || '',
-  });
-  const playUrl = `/play?${playParams.toString()}`;
+
 
   return (
     <section
@@ -157,7 +149,7 @@ export function HeroCarousel({ items, autoPlayInterval = 6000 }: HeroCarouselPro
                   {/* Action Buttons */}
                   <div className="flex items-center gap-3 pt-2">
                     <Link
-                      href={playUrl}
+                      href={`/${mediaType}/${currentItem.id}`}
                       className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-7 py-2.5 sm:py-3 bg-primary hover:bg-primary-light text-white text-sm sm:text-base font-semibold rounded-xl transition-all hover:scale-105 shadow-lg shadow-primary/30"
                     >
                       <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
