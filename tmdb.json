@@ -65,8 +65,8 @@
       "active": true
     },
     {
-      "name": "Test",
-      "label": "Media",
+      "name": "yout",
+      "label": "YouTube",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://movieplay1.pages.dev/movie/{tmdbId}",
