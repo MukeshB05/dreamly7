@@ -6,7 +6,7 @@
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
-      "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"",
+      "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}",
       "active": true
     },
     {
@@ -14,7 +14,7 @@
       "label": "Main 2",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
+      "moviePattern": "https://www.viduki.net/1/movie/{tmdbId}",
       "tvPattern": "https://www.viduki.net/1/tv/{tmdbId}/{season}/{episode}?color=FF0000",
       "active": true
     },
