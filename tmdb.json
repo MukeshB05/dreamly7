@@ -1,17 +1,26 @@
 {
   "servers": [
     {
-      "name": "viduki_1",
+      "name": "Dreamly",
       "label": "Main 1",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://www.viduki.net/1/movie/{tmdbId}?color=FF0000",
-      "tvPattern": "https://www.viduki.net/1/tv/{tmdbId}/{season}/{episode}?color=FF0000",
+      "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
+      "tvPattern": "https://videoply.pages.dev/index2/tv/{tmdbId}/S{season}/E{episode}"",
       "active": true
     },
     {
       "name": "vidy",
       "label": "Main 2",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://videoply.pages.dev/index2/movie/{tmdbId}",
+      "tvPattern": "https://www.viduki.net/1/tv/{tmdbId}/{season}/{episode}?color=FF0000",
+      "active": true
+    },
+    {
+      "name": "vidy",
+      "label": "Main 3",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://vidy.st/movie/{tmdbId}?color=FF0000&overlay=true",
@@ -21,7 +30,7 @@
     },
     {
       "name": "vidfast",
-      "label": "Main 3",
+      "label": "Main 4",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidfast.pro/movie/{tmdbId}?autoPlay=true&title=true&poster=true&theme=FF0000",
@@ -30,7 +39,7 @@
     },
     {
       "name": "vidlink",
-      "label": "Main 4",
+      "label": "Main 5",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://vidlink.pro/movie/{tmdbId}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=jw&title=true&poster=true&autoplay=true&nextbutton=false",
@@ -39,7 +48,7 @@
     },
     {
       "name": "videasy",
-      "label": "Main 5",
+      "label": "Main 6",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://player.videasy.to/movie/{tmdbId}",
@@ -48,7 +57,7 @@
     },
     {
       "name": "vidzee",
-      "label": "Main 6",
+      "label": "Main 7",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://player.vidzee.wtf/embed/movie/{tmdbId}?color=FF0000",
