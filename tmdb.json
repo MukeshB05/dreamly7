@@ -10,6 +10,15 @@
       "active": true
     },
     {
+      "name": "nxshascreenscape",
+      "label": "Nxsha",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://nxsha.screenscape.me/embed?type=movie&lan=eng&tmdb={tmdbId}",
+      "tvPattern": "https://nxsha.screenscape.me/embed?type=tv&lan=eng&tmdb={tmdbId}&s={season}&e={episode}",
+      "active": true
+    },
+    {
       "name": "primesrc",
       "label": "PrimeSRC",
       "imdbSupported": false,
