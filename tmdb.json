@@ -10,8 +10,44 @@
       "active": true
     },
     {
+      "name": "primesrc",
+      "label": "PrimeSRC",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://primesrc.me/embed/movie?tmdb={tmdbId}",
+      "tvPattern": "https://primesrc.me/embed/tv?tmdb={tmdbId}&season={season}&episode={episode}",
+      "active": true
+    },
+    {
+      "name": "pvrplay",
+      "label": "PVRPlay",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://pvrplay.online/watch/movie/{tmdbId}",
+      "tvPattern": "https://pvrplay.online/watch/tv/{tmdbId}/{s}/{e}",
+      "active": true
+    },
+    {
+      "name": "vidrock",
+      "label": "VidRock",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://vidrock.net/embed/movie/{tmdbId}",
+      "tvPattern": "https://vidrock.net/embed/tv/{tmdbId}&season={s}&episode={e}",
+      "active": true
+    },
+    {
+      "name": "cinemoos",
+      "label": "CinemaOS",
+      "imdbSupported": false,
+      "tmdbSupported": true,
+      "moviePattern": "https://cinemaos.tech/movie/watch/{tmdbId}?autoplay=true",
+      "tvPattern": "https://cinemaos.tech/tv/watch/{tmdbId}?season={s}&episode={e}?autoplay=true&embed=true",
+      "active": true
+    },
+    {
       "name": "viduki",
-      "label": "Main 2",
+      "label": "Viduki",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://www.viduki.net/1/movie/{tmdbId}",
@@ -20,7 +56,7 @@
     },
     {
       "name": "vidy",
-      "label": "Main 3",
+      "label": "Vidy",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://vidy.st/movie/{tmdbId}?color=FF0000&overlay=true",
@@ -30,7 +66,7 @@
     },
     {
       "name": "vidfast",
-      "label": "Main 4",
+      "label": "VidFast",
       "imdbSupported": true,
       "tmdbSupported": true,
       "moviePattern": "https://vidfast.pro/movie/{tmdbId}?autoPlay=true&title=true&poster=true&theme=FF0000",
@@ -39,7 +75,7 @@
     },
     {
       "name": "vidlink",
-      "label": "Main 5",
+      "label": "VidLink",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://vidlink.pro/movie/{tmdbId}?primaryColor=FF0000&secondaryColor=a2a2a2&iconColor=eefdec&icons=default&player=jw&title=true&poster=true&autoplay=true&nextbutton=false",
@@ -47,8 +83,8 @@
       "active": true
     },
     {
-      "name": "videasy",
-      "label": "Main 6",
+      "name": "vidEasy",
+      "label": "Videasy",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://player.videasy.to/movie/{tmdbId}",
@@ -57,7 +93,7 @@
     },
     {
       "name": "vidzee",
-      "label": "Main 7",
+      "label": "VidZee",
       "imdbSupported": false,
       "tmdbSupported": true,
       "moviePattern": "https://player.vidzee.wtf/embed/movie/{tmdbId}?color=FF0000",
