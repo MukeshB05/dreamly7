@@ -128,13 +128,13 @@
       "active": true
     },
     {
-      "name": "vidsrc_wtf_1",
-      "label": "Main 2",
+      "name": "Ovidads",
+      "label": "Ovidads",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://www.vidsrc.wtf/api/1/movie/?color=FF0000&id={tmdbId}",
-      "tvPattern": "https://www.vidsrc.wtf/api/1/tv/?color=FF0000&id={tmdbId}&s={season}&e={episode}",
-      "active": false
+      "moviePattern": "https://0vidads.top/embed/movie/movie_id",
+      "tvPattern": "https://0vidads.top/embed/tv/show_id/season/episode",
+      "active": true
     },
     {
       "name": "vidup",
