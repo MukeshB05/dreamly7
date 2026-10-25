@@ -132,8 +132,8 @@
       "label": "Ovidads",
       "imdbSupported": true,
       "tmdbSupported": true,
-      "moviePattern": "https://0vidads.top/embed/movie/{id}",
-      "tvPattern": "https://0vidads.top/embed/tv/{id}/{ss}/{ee}",
+      "moviePattern": "https://0vidads.top/embed/movie/{tmdbId}",
+      "tvPattern": "https://0vidads.top/embed/tv/{tmdbId}/{ss}/{ee}",
       "active": true
     },
     {
