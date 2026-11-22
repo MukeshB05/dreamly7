@@ -23,8 +23,8 @@
       "label": "Nxsha",
       "imdbSupported": false,
       "tmdbSupported": true,
-      "moviePattern": "https://nxsha.screenscape.me/embed?type=movie&lan=eng&tmdb={tmdbId}",
-      "tvPattern": "https://nxsha.screenscape.me/embed?type=tv&lan=eng&tmdb={tmdbId}&s={season}&e={episode}",
+      "moviePattern": "https://web.screenscape.fun/embed?type=movie&lan=eng&tmdb={tmdbId}",
+      "tvPattern": "https://web.screenscape.fun/embed?type=tv&lan=eng&tmdb={tmdbId}&s={season}&e={episode}",
       "active": true
     },
     {
